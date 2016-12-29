@@ -1,0 +1,50 @@
+body,a,p,ul,li{ margin: 0px; padding: 0px; font-size: 12px;}
+a,a:hover{ text-decoration:none; font-size: 16px; color: #225592;}
+li{ list-style-type: none;}
+
+/*清除浮动*/
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+
+/*用css消除button/selcet等控件选中时的虚线框(让页面美观点)*/
+input,button,a { 
+outline:0 none !important; blr:expression(this.onFocus=this.blur()); 
+}
+
+
+#QQtop{ width: 1364px; height: 62px; background-color: #eff4fa; }
+#QQtop_img{ padding: 14px 0px 0px 40px; display: block; float: left;}
+#QQTop_content{ width:1040px ; height: 30px ; margin: 16px; padding: 0px 20px 0px 0px; float: right; text-align: right;  line-height: 30px;}
+#QQTop_content a{ font-size: 12px; margin: auto; padding: auto; line-height: 30px; } 
+
+#QQcontent{ width: 960px; height: 429px; margin: 32px 170.5px ; padding: 0px 24px;}
+#QQcontent_body{ width: 916px; height: 389px; padding: 40px 0px 0px 0px; margin: 0px 20px 60px 25px; }
+#QQcontent_body_left{ width: 520px; height: 400px; float: left; }
+#QQcontent_body_left_picture{ width: 520px ; height: 400px ; background-image:url('https://rescdn.qqmail.com/zh_CN/htmledition/images/tg-chang1ea8a2.png');background-position:right 0; background-repeat: no-repeat; position: absolute;}
+#QQcontent_body_left_content{ width: 520px ; height: 152px ; padding: 25px 0px 0px 0px; position: relative;}
+.QQcontent_body_left_content_title{ width: 520px ; height: 26px ; margin:15px 0px ; font-size: 24px; color: #6f95c8;}
+p{ width: 520px ; height: 24px ; font-size: 14px ; line-height: 24px ; font-family: "lucida Grande",Verdana,"Microsoft YaHei";}
+
+#QQcontent_body_right{ width: 334px; height: 387px; float: right; border: 1px solid #a0b1c4; border-radius: 6px; position: relative;}
+#login{ width: 334px ; height: 40px ; border-bottom: 1px solid #A0B1C4; padding-top: 16px; background-color: #f9fbfe; border-radius: 6px 6px 0px 0px;}
+.login_li{ width:160px ; line-height: 34px; font-size: 16px; color: #333333; text-align: center; display: block; float: left; }
+
+.falsehide{color: #afafc4; }
+.trueshow{ color: #333333; }
+#suggest{ width: 334px ; font-size: 8px; color: red; text-indent: 2em; margin:10px 0px 20px 0px;}
+.input{ width: 284px; height: 40px; border: 1px solid #AFAFC4; margin: 10px auto; border-radius:6px ;}
+.input_t_p{ width: 260px; height: 38px; line-height: 38px; font-size: 16px; margin:0px auto; display: block; border: 0px; outline: none;}
+.bborder{ border: none;}
+#ts{ width: 15px; height: 15px; padding: 1px; border: 1px solid #a0b1c4; display: block; float: left; margin:5px 0px 0px 5px;}
+#ts_text{ height: 15px; display: block; float: left; margin:5px 3px 0px 5px; line-height: 20px; }
+.button{ display: block; background-color: #5a98de; color: white; font-size: 20px;}
+
+#low{ width: 200px; height: 30px; line-height: 30px; position:absolute;bottom: 0px;right: 0px;}
+#low a{font-size: 8px; }
+ 
+#QQfooter{ width: 1364px; height: 20px; background-color: #EFF4FA; position: fixed;bottom: 30px; padding-left: 370px; padding-top: 16px;} 
+#QQfooter a{ text-align: center;font-size: 8px; color: #1d5494;  }
+#QQfooter span{ color: #868686;}
+
+
+.same{ width: 334px; height: ;}
